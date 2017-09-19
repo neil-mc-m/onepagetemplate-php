@@ -1,0 +1,22 @@
+{
+  "name": "solidsites-dev",
+  "version": "1.0.0",
+  "description": "dependencies for solidsites website",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "browser",
+    "sync",
+    "grunt",
+    "frontens"
+  ],
+  "author": "n.mc.m",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browser-sync": "^2.2.0"
+  }
+}

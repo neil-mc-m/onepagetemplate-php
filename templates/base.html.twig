@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="{% block description %}{% endblock %}">
+    <meta name="author" content="web dev by solidsites.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- theme color for mobile browsers -->
+    <meta name="theme-color" content="#242E38">
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/now-ui-kit.css" rel="stylesheet" />
+
+    <title>
+        {% block title %}{% endblock %}
+    </title>
+
+
+
+</head>
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+{# the header #}
+
+{# the body #}
+{% block content %}{% endblock %}
+
+{# the footer #}
+
+<!-- js -->
+<!--Import jQuery -->
+
+
+<!-- custom js -->
+<!--   Core JS Files   -->
+<script src="/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="/js/core/popper.min.js" type="text/javascript"></script>
+<script src="/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="/js/plugins/bootstrap-switch.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- Share Library etc -->
+<script src="/js/plugins/jquery.sharrre.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+</body>
+
+</html>
